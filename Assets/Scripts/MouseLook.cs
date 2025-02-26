@@ -3,13 +3,15 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-    public float MouseSensitivity = 1.5f;
+    public float mouseSensitivity = 1.5f;
     public float smoothing = 5f;
     
 
     private float xMousePos;
     private float yMousePos;
-    private float smothedMousePos;
+    
+    private float smoothedMousePosX;
+    private float smoothedMousePosY;
 
     private float currentLookingPos;
 
@@ -24,7 +26,7 @@ public class MouseLook : MonoBehaviour
     {
         GetInput();
         ModifyInput();
-        MovePlayer();
+        MoveMouse();
         
     }
 
@@ -32,19 +34,23 @@ public class MouseLook : MonoBehaviour
     {
         xMousePos = Input.GetAxisRaw("Mouse X");
         yMousePos = Input.GetAxisRaw("Mouse Y");
+        
+        
     }
 
     void ModifyInput()
     {
-        xMousePos *= MouseSensitivity * smoothing;
-        smothedMousePos = Mathf.Lerp(smothedMousePos, xMousePos, 1f / smoothing);
-        smothedMousePos = Mathf.Lerp(smothedMousePos, yMousePos, 1f / smoothing);
+        xMousePos *= mouseSensitivity * smoothing;
+        yMousePos *= mouseSensitivity * smoothing;
+        smoothedMousePosX = Mathf.Lerp(smoothedMousePosX, xMousePos, 1f / smoothing);
+        smoothedMousePosY = Mathf.Lerp(smoothedMousePosY, yMousePos, 1f / smoothing);
+        
 
     }
 
-    void MovePlayer()
+    void MoveMouse()
     {
-        currentLookingPos += smothedMousePos;
+        currentLookingPos += smoothedMousePosX ;
         transform.localRotation = Quaternion.AngleAxis(currentLookingPos, transform.up);
     }
 }
