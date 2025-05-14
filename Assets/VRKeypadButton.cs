@@ -6,7 +6,7 @@ public class VRKeypadButton : MonoBehaviour
 {
     [SerializeField] private string buttonValue = "1";
     [SerializeField] private KeypadPuzzle keypadPuzzle;
-    [SerializeField] private float pressDepth = 0.01f;
+    [SerializeField] private float pressDepth = 0.02f;
     [SerializeField] private AudioClip pressSound;
 
     private Vector3 originalPosition;
@@ -25,7 +25,7 @@ public class VRKeypadButton : MonoBehaviour
     {
         if (args.interactorObject is UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor controllerInteractor)
         {
-            controllerInteractor.xrController.SendHapticImpulse(0.5f, 0.1f);
+            SendHapticImpulse(controllerInteractor, 0.5f, 0.1f);
         }
         // Visual press effect
         transform.localPosition = originalPosition + (transform.forward * -pressDepth);
@@ -46,6 +46,16 @@ public class VRKeypadButton : MonoBehaviour
         Invoke("ResetButton", 0.1f);
     }
 
+    
+    private void SendHapticImpulse(UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor controllerInteractor, float amplitude, float duration)
+    {
+        
+        
+        // New way to get the controller
+        
+            controllerInteractor.SendHapticImpulse(amplitude, duration);
+        
+    }
     private void ResetButton()
     {
         transform.localPosition = originalPosition;
