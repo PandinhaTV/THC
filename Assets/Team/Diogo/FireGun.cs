@@ -8,70 +8,41 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 public class FireGun : MonoBehaviour 
 {
     [Header("VR Settings")] public XRNode controllerNode;
-    private InputDevice controllerDevice;
-    public float triggerThreshold = 0.5f;
+    public Transform muzzle;
+    public GameObject bulletPrefab;
+    public float bulletSpeed = 20f;
+    public AudioSource gunShotSound;
 
-    private bool triggerPressed;
+    private UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor interactor;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Fire()
     {
-
-    }
-
-
-    protected void OnEnable()
-    {
-
-        controllerDevice = InputDevices.GetDeviceAtXRNode(controllerNode);
-    }
-
-    public void Update()
-    {
-        //if (!isSelected) return;
-
-        controllerDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue);
-
-        if (triggerValue > triggerThreshold && !triggerPressed)
+        if (bulletPrefab != null && muzzle != null)
         {
-            triggerPressed = true;
-            TryShoot();
-        }
-        else if (triggerValue <= triggerThreshold && triggerPressed)
-        {
-            triggerPressed = false;
+            GameObject bullet = Instantiate(bulletPrefab, muzzle.position, muzzle.rotation);
+            Rigidbody rb = bullet.GetComponent<Rigidbody>();
+            rb.linearVelocity = muzzle.forward * bulletSpeed;
+
+            //gunShotSound?.Play();
         }
     }
 
-    private int currentAmmo;
-    private float nextTimeToFire = 0f;
-    public float fireRate = 0.2f;
-
-    // Update is called once per frame
-    private void TryShoot()
+    private void OnEnable()
     {
-        if (Time.time >= nextTimeToFire)
-        {
-            if (currentAmmo > 0)
-            {
-                Shoot();
-            }
-            else
-            {
-                //gunAudio.PlayOneShot(emptySound);
-                //StartCoroutine(Reload());
-            }
-        }
+        var interactable = GetComponent<XRGrabInteractable>();
+        interactable.activated.AddListener(OnActivate);
     }
 
-    public void Shoot()
+    private void OnDisable()
     {
-        currentAmmo--;
-        nextTimeToFire = Time.time + fireRate;
+        var interactable = GetComponent<XRGrabInteractable>();
+        interactable.activated.RemoveListener(OnActivate);
+    }
 
-        //if (selectingInteractor is XRBaseController controller)
-        //{
-         //   controller.SendHapticImpulse(0.3f, 0.1f);
-        //}
+    private void OnActivate(ActivateEventArgs args)
+    {
+        Fire();
     }
 }
+
+
