@@ -23,7 +23,7 @@ public class FireGun : MonoBehaviour
             Rigidbody rb = bullet.GetComponent<Rigidbody>();
             rb.linearVelocity = muzzle.forward * bulletSpeed;
 
-            //gunShotSound?.Play();
+            gunShotSound?.Play();
         }
     }
 
