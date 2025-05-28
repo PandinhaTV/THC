@@ -376,7 +376,7 @@ MonoBehaviour:
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
   m_AngularVelocityScale: 1
-  m_TrackPosition: 1
+  m_TrackPosition: 0
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 8
   m_TightenPosition: 0.1
@@ -384,11 +384,11 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 8
   m_TightenRotation: 0.1
-  m_TrackScale: 1
+  m_TrackScale: 0
   m_SmoothScale: 0
   m_SmoothScaleAmount: 8
   m_TightenScale: 0.1
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -1241,6 +1241,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3542852092398272455, guid: 78cf711f80dfd5347bfbbce6f82324a5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 307.89108
+      objectReference: {fileID: 0}
+    - target: {fileID: -3542852092398272455, guid: 78cf711f80dfd5347bfbbce6f82324a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.6452
+      objectReference: {fileID: 0}
     - target: {fileID: -2947538861075970057, guid: 78cf711f80dfd5347bfbbce6f82324a5, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1281,6 +1289,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2873417956497039694, guid: 78cf711f80dfd5347bfbbce6f82324a5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 101.40486
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873417956497039694, guid: 78cf711f80dfd5347bfbbce6f82324a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.7062
+      objectReference: {fileID: 0}
     - target: {fileID: 2927593092117553206, guid: 78cf711f80dfd5347bfbbce6f82324a5, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1308,6 +1324,14 @@ PrefabInstance:
     - target: {fileID: 7942816438788599155, guid: 78cf711f80dfd5347bfbbce6f82324a5, type: 3}
       propertyPath: m_LocalPosition.z
       value: -10.926
+      objectReference: {fileID: 0}
+    - target: {fileID: 8840325784346304087, guid: 78cf711f80dfd5347bfbbce6f82324a5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 137.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8840325784346304087, guid: 78cf711f80dfd5347bfbbce6f82324a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.8573
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2815,63 +2839,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.020000007, y: 0.0021387292, z: 0.019999998}
   m_Center: {x: -0.000000009778885, y: 0.0015000103, z: -1.40815e-23}
---- !u!1001 &327746689
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5243117793864058156, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.5260203
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243117793864058156, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.00000071525574
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243117793864058156, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.23103541
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243117793864058156, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243117793864058156, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243117793864058156, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243117793864058156, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243117793864058156, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243117793864058156, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243117793864058156, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5707650531109065242, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
-      propertyPath: m_Name
-      value: Cube
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4516838b4584c8e4d831a427c6daecf9, type: 3}
 --- !u!1001 &329978045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3481,7 +3448,7 @@ MonoBehaviour:
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
   m_AngularVelocityScale: 1
-  m_TrackPosition: 1
+  m_TrackPosition: 0
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 8
   m_TightenPosition: 0.1
@@ -3489,11 +3456,11 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 8
   m_TightenRotation: 0.1
-  m_TrackScale: 1
+  m_TrackScale: 0
   m_SmoothScale: 0
   m_SmoothScaleAmount: 8
   m_TightenScale: 0.1
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -9322,7 +9289,7 @@ MonoBehaviour:
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
   m_AngularVelocityScale: 1
-  m_TrackPosition: 1
+  m_TrackPosition: 0
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 8
   m_TightenPosition: 0.1
@@ -9330,11 +9297,11 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 8
   m_TightenRotation: 0.1
-  m_TrackScale: 1
+  m_TrackScale: 0
   m_SmoothScale: 0
   m_SmoothScaleAmount: 8
   m_TightenScale: 0.1
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -14462,4 +14429,3 @@ SceneRoots:
   - {fileID: 800498407}
   - {fileID: 1269709905}
   - {fileID: 473251821}
-  - {fileID: 327746689}
