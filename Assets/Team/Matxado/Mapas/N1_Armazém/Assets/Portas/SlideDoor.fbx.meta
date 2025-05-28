@@ -3,7 +3,17 @@ guid: 355798eb76b8de642989d10a58af5de3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Castanho
+    second: {fileID: 2100000, guid: 7beccae6e2ecd0d43af886009a0148cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cinzento
+    second: {fileID: 2100000, guid: d385235f3c0c3324093c2712a367e5a2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
