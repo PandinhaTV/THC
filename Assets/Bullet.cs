@@ -19,8 +19,10 @@ public class Bullet : MonoBehaviour
             target.TakeDamage(damage);
             Destroy(gameObject);
         }
-    }
         // Optional: spawn impact VFX here
+        Destroy(gameObject);
+    }
+        
         
 }
 
