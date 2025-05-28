@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 25684f96ac8310e489fcc87939860419
+guid: bd7ce28abffbb2142945c34856e128af
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cinzento
-    second: {fileID: 2100000, guid: d385235f3c0c3324093c2712a367e5a2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Verde
-    second: {fileID: 2100000, guid: a7ed7aeeee5b9264eb987e8dc2e3412a, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
