@@ -3349,6 +3349,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 75fe537c723f3464aac40905f8d35466, type: 2}
+    - target: {fileID: -7511558181221131132, guid: ba9d59cc65298514da7f8eaf5ad514d5, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 735cd8965a94a034999c69a9c13e4763, type: 2}
     - target: {fileID: 919132149155446097, guid: ba9d59cc65298514da7f8eaf5ad514d5, type: 3}
       propertyPath: m_Name
       value: InteriorNormalDoor
@@ -5530,6 +5534,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1269709905}
     m_Modifications:
+    - target: {fileID: 1957735280516780435, guid: c6cb669a837ce5e4faf38d7af266894e, type: 3}
+      propertyPath: m_Name
+      value: CUBAO Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 2080007638072723109, guid: c6cb669a837ce5e4faf38d7af266894e, type: 3}
       propertyPath: m_LocalScale.x
       value: 37.95446
@@ -5581,10 +5589,6 @@ PrefabInstance:
     - target: {fileID: 2080007638072723109, guid: c6cb669a837ce5e4faf38d7af266894e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957735280516780435, guid: c6cb669a837ce5e4faf38d7af266894e, type: 3}
-      propertyPath: m_Name
-      value: CUBAO Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
