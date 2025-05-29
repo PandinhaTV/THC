@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ba9d59cc65298514da7f8eaf5ad514d5
+guid: c61e3cf44f2cf2c4c831ff43057a2857
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Castanho
-    second: {fileID: 2100000, guid: 75fe537c723f3464aac40905f8d35466, type: 2}
+      name: Material
+    second: {fileID: 2100000, guid: 2da44245c0d22d443995e90ec753d1c0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Cinzento
-    second: {fileID: 2100000, guid: 2da44245c0d22d443995e90ec753d1c0, type: 2}
+      name: Material.001
+    second: {fileID: 2100000, guid: b7eaf63c3d582af4b9089b422bf43fee, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
