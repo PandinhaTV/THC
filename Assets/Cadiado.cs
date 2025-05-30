@@ -1,14 +1,12 @@
 using UnityEngine;
+using UnityEngine.Events;
 
-public interface IDamageable
+public class Cadiado : MonoBehaviour, IDamageable
 {
-    void TakeDamage(int amount);
-}
-public class Enemy : MonoBehaviour, IDamageable
-{
+    [SerializeField] private UnityEvent onCodeCorrect;
     public int maxHealth = 100;
     private int currentHealth;
-
+    public Rigidbody door;
     private void Awake()
     {
         currentHealth = maxHealth;
@@ -23,6 +21,8 @@ public class Enemy : MonoBehaviour, IDamageable
     private void Die()
     {
         // Play death animation, disable AI, ragdoll, etc.
+        //door.constraints &= ~RigidbodyConstraints.FreezeRotationZ;
+        onCodeCorrect.Invoke();
         Destroy(gameObject);
     }
 }
