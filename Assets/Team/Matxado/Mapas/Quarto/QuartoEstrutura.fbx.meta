@@ -3,7 +3,57 @@ guid: 0f742eb8cbd06b44793974a0c417508e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedeBaseBranca_acimaporta
+    second: {fileID: 2100000, guid: 595ee4fc2e70ea448b85e3890e1afad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedeBaseBranca_armario
+    second: {fileID: 2100000, guid: 6b46448a7aab2bc4f9144055156878c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedeBaseBranca_atrascama
+    second: {fileID: 2100000, guid: c0647672fb6f53a49940bab09d7a89b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedeBaseBranca_banheiro
+    second: {fileID: 2100000, guid: e8fd341beb90a5b4a9ebcca085f998dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedeBaseBranca_fogao
+    second: {fileID: 2100000, guid: 74046427ff4aef045a5958e3814cac44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedeBaseBranca_ladoporta
+    second: {fileID: 2100000, guid: 9ce5c26d9e14ef94eb118fbc09b4ad21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedeBaseBranca_lateralcama
+    second: {fileID: 2100000, guid: c462ec31d383b114fbde62d88c4cb941, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedeBaseBranca_lateralportalonga
+    second: {fileID: 2100000, guid: 8a3fc20ad6e7cc046843d9aaebb104bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedeBaseBranca_paredebaixa
+    second: {fileID: 2100000, guid: ae6816611e6887840a3e73a1b6d355e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedeBaseBranca_teto
+    second: {fileID: 2100000, guid: a9fa8ea10e0872c42a2e93fc95101cc6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
