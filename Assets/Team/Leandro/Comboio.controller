@@ -21,11 +21,11 @@ AnimatorController:
   m_Name: Comboio
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: New Bool
+  - m_Name: TriggerComboio
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
