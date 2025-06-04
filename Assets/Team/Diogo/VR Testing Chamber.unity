@@ -2059,10 +2059,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1897423351443996514, guid: 592956b6b255b2c4e9134864dc9166d3, type: 3}
-      propertyPath: m_InteractionLayers.m_Bits
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 2015370561537284032, guid: 592956b6b255b2c4e9134864dc9166d3, type: 3}
       propertyPath: m_Name
       value: BoomBox
@@ -2106,10 +2102,6 @@ PrefabInstance:
     - target: {fileID: 7102863716553120256, guid: 592956b6b255b2c4e9134864dc9166d3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8921789676191718199, guid: 592956b6b255b2c4e9134864dc9166d3, type: 3}
-      propertyPath: m_InteractionLayers.m_Bits
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

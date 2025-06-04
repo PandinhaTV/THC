@@ -275,7 +275,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -338,9 +338,9 @@ MonoBehaviour:
   m_Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4700731788337731649}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Pause
+      - m_Target: {fileID: 2824826616615552349}
+        m_TargetAssemblyTypeName: AudioBoombox, Assembly-CSharp
+        m_MethodName: TogglePause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -806,6 +806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8766683061500121789}
   - component: {fileID: 4700731788337731649}
+  - component: {fileID: 2824826616615552349}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -838,8 +839,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5a1bcae21cab7eb4c964cb042f068123, type: 3}
-  m_Resource: {fileID: 8300000, guid: 5a1bcae21cab7eb4c964cb042f068123, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -925,6 +926,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2824826616615552349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059399457541755403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1426c18cbb1580d44ae6d0e201d87903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songs:
+  - {fileID: 8300000, guid: f7648831e3520774aaf2ec2ac35a9efc, type: 3}
+  - {fileID: 8300000, guid: 9a2dcb842ecacd44e8209dcb37169d05, type: 3}
+  - {fileID: 8300000, guid: 33f362eeb95619f4cbe2f997db1b8c50, type: 3}
+  - {fileID: 8300000, guid: cd2fc176fe8c0d248b77b306313b55ab, type: 3}
+  - {fileID: 8300000, guid: 303b13b8ce49f764283b50d9b14ef65b, type: 3}
 --- !u!1 &8984377309903555010
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,7 +1097,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -1111,8 +1130,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4700731788337731649}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+      - m_Target: {fileID: 2824826616615552349}
+        m_TargetAssemblyTypeName: AudioBoombox, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -1141,8 +1160,8 @@ MonoBehaviour:
   m_Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4700731788337731649}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+      - m_Target: {fileID: 2824826616615552349}
+        m_TargetAssemblyTypeName: AudioBoombox, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
