@@ -1177,10 +1177,26 @@ PrefabInstance:
       propertyPath: pressSound
       value: 
       objectReference: {fileID: 8300000, guid: b2b151c399518544ba448bdb3ee0ba12, type: 3}
+    - target: {fileID: 2032445520055152111, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2108391569285714889, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
       propertyPath: pressSound
       value: 
       objectReference: {fileID: 8300000, guid: b2b151c399518544ba448bdb3ee0ba12, type: 3}
+    - target: {fileID: 2793165958164496215, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908845591617459744, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809826445596485316, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4664415634921444149, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
       propertyPath: displayText
       value: 
@@ -1197,6 +1213,14 @@ PrefabInstance:
       propertyPath: pressSound
       value: 
       objectReference: {fileID: 8300000, guid: b2b151c399518544ba448bdb3ee0ba12, type: 3}
+    - target: {fileID: 5623262090102191150, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796907382418810301, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5888476718016371884, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
       propertyPath: pressSound
       value: 
@@ -1205,6 +1229,10 @@ PrefabInstance:
       propertyPath: pressSound
       value: 
       objectReference: {fileID: 8300000, guid: b2b151c399518544ba448bdb3ee0ba12, type: 3}
+    - target: {fileID: 7090557730100435701, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7166721776972445667, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 4
@@ -1213,9 +1241,17 @@ PrefabInstance:
       propertyPath: pressSound
       value: 
       objectReference: {fileID: 8300000, guid: b2b151c399518544ba448bdb3ee0ba12, type: 3}
+    - target: {fileID: 8627577253984850462, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8739923022927146176, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
       propertyPath: m_Name
       value: NovoKeypad
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003501935675075560, guid: 2cdab9b167cce2d4cb9a6ccd87d6729c, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2252,6 +2288,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1666320186578454293, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0718
+      objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
@@ -2296,9 +2336,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2141651114331267770, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343660526480754339, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663893676086941514, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_SmoothTurnEnabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5663893676086941514, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_SmoothMotionEnabled
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663893676086941514, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_NearFarEnableTeleportDuringNearInteraction
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
