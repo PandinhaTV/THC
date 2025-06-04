@@ -10935,7 +10935,7 @@ MonoBehaviour:
   - {fileID: 1153301567}
   - {fileID: 1921212373}
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -11813,6 +11813,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1269709905}
     m_Modifications:
+    - target: {fileID: 1957735280516780435, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
+      propertyPath: m_Name
+      value: CUBAO
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -339.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -263.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -150.4
+      objectReference: {fileID: 0}
     - target: {fileID: 335414524855354960, guid: ee9c33ba6a79dd74cbf3bfcc21812218, type: 3}
       propertyPath: m_LocalPosition.x
       value: -334.1
@@ -11852,22 +11868,6 @@ PrefabInstance:
     - target: {fileID: 335414524855354960, guid: ee9c33ba6a79dd74cbf3bfcc21812218, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957735280516780435, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
-      propertyPath: m_Name
-      value: CUBAO
-      objectReference: {fileID: 0}
-    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -339.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -263.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -150.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19927,7 +19927,8 @@ PrefabInstance:
       propertyPath: OnPartSelected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 824734495}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 416051376510356, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -38847,6 +38848,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1269709905}
     m_Modifications:
+    - target: {fileID: 1957735280516780435, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
+      propertyPath: m_Name
+      value: CUBAO (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -206.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -263.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.9
+      objectReference: {fileID: 0}
     - target: {fileID: 335414524855354960, guid: ee9c33ba6a79dd74cbf3bfcc21812218, type: 3}
       propertyPath: m_LocalPosition.x
       value: -201.99
@@ -38886,22 +38903,6 @@ PrefabInstance:
     - target: {fileID: 335414524855354960, guid: ee9c33ba6a79dd74cbf3bfcc21812218, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957735280516780435, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
-      propertyPath: m_Name
-      value: CUBAO (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -206.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -263.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2080007638072723109, guid: 70672e916a1911d4a9d459c130b9be99, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
