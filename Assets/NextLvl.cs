@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class NextLvl : MonoBehaviour
@@ -12,5 +13,11 @@ public class NextLvl : MonoBehaviour
             // Load the next scene (by build index)
             SceneManager.LoadScene(currentSceneIndex + 1);
         }
+        
+    }
+
+    private void Update()
+    {
+        throw new NotImplementedException();
     }
 }
