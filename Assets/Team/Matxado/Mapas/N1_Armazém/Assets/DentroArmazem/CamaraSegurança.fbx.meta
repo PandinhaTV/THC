@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: CamaraCinz
+    second: {fileID: 2100000, guid: 2da44245c0d22d443995e90ec753d1c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CamaraEscurp
+    second: {fileID: 2100000, guid: b7eaf63c3d582af4b9089b422bf43fee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material
     second: {fileID: 2100000, guid: 2da44245c0d22d443995e90ec753d1c0, type: 2}
   - first:
