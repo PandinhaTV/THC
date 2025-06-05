@@ -202,6 +202,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8369670255871423807, guid: ffee963afb405d6428eeb869a964eedf, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 5510013821203748130, guid: 4c4f485d7721ae94daeae9379892eec5, type: 3}
     - target: {fileID: 919132149155446097, guid: ffee963afb405d6428eeb869a964eedf, type: 3}
       propertyPath: m_Name
       value: Milho
