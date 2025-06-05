@@ -10,7 +10,7 @@ public class FireGun : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 20f;
     public AudioSource gunShotSound;
-    private float fireRate = 2f;
+    private float fireRate = 0.5f;
     public InputActionProperty triggerAction;
     public Transform muzzle;
     public LayerMask hitLayers; 

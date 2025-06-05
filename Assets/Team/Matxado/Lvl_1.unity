@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 30619465}
   rotationSpeed: 2
@@ -1910,7 +1910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 62486526}
   rotationSpeed: 2
@@ -2628,7 +2628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 75296305}
   rotationSpeed: 2
@@ -4324,7 +4324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 153545557}
   rotationSpeed: 2
@@ -6371,7 +6371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 274689997}
   rotationSpeed: 2
@@ -11008,7 +11008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 541339638}
   rotationSpeed: 2
@@ -12035,7 +12035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 579103685}
   rotationSpeed: 2
@@ -21337,7 +21337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 1062162976}
   rotationSpeed: 2
@@ -21897,7 +21897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 1086778894}
   rotationSpeed: 2
@@ -23922,31 +23922,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.407
+      value: 8.111
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.112
+      value: 0.11199999
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.06
+      value: 13.54
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.5862227
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0.81014997
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -23954,17 +23954,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 108.221
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985995901566590345, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_Antialiasing
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+--- !u!4 &1181105997 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1767192434, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 1181105996}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1181266841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29585,7 +29594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 1480037188}
   rotationSpeed: 2
@@ -29768,7 +29777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 1491638100}
   rotationSpeed: 2
@@ -31718,7 +31727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 1622798560}
   rotationSpeed: 2
@@ -36099,7 +36108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 1791686643}
   rotationSpeed: 2
@@ -36239,7 +36248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade4bd833fe532f4f8c0857992e9b324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1181105997}
   lookAtRange: 10
   camera: {fileID: 1794209674}
   rotationSpeed: 2
@@ -37480,7 +37489,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.3596, y: 2.8018, z: 12.899}
-  m_LocalScale: {x: -7.134602, y: 5.031628, z: 1.726655}
+  m_LocalScale: {x: 7.134602, y: 5.031628, z: 1.726655}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 807890620}
