@@ -19,7 +19,7 @@ public class HealthOverlayController : MonoBehaviour
     {
         float healthPercent = playerHealth.GetHealthPercent();
         float targetAlpha = (healthPercent < fadeStartThreshold)
-            ? Mathf.Clamp01(1f - (healthPercent / fadeStartThreshold)) * 0.6f // max 60% opacity
+            ? Mathf.Clamp01(1f - (healthPercent / fadeStartThreshold)) * 0.9f // max 90% opacity
             : 0f;
 
         Color targetColor = new Color(baseColor.r, baseColor.g, baseColor.b, targetAlpha);
