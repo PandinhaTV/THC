@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class ShootPlayer : MonoBehaviour
@@ -12,6 +13,7 @@ public class ShootPlayer : MonoBehaviour
     public GameObject Player; // You can assign this manually or via script
 
     
+
     public void Shoot()
     {
         if (Player == null || firePoint == null)

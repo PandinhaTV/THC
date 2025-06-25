@@ -63,6 +63,9 @@ using UnityEngine;
                         {
                             closestDistanceSqr = dSqrToTarget;
                             closestTarget = potentialTarget;
+                            Vector3 direction = potentialTarget.position - transform.position;
+                            direction.y = 0; // Ignore vertical difference
+                            transform.rotation = Quaternion.LookRotation(direction);
                         }
                     }
                 }
