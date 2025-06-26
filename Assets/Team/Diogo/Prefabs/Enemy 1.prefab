@@ -264,7 +264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 7141428392726194663, guid: 6ae9b3e608ad1d246866f7ff0cc2c2f5, type: 3}
   firePoint: {fileID: 3850117142760634863}
-  shootForce: 20
+  shootForce: 15
   cooldown: 1.5
   Player: {fileID: 0}
 --- !u!1 &3511330037050518816

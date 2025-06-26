@@ -39374,10 +39374,6 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 2071417566}
-    - target: {fileID: 658912410697936705, guid: 4c7d1d9791d16444eae7d52c8d76be6e, type: 3}
-      propertyPath: shootForce
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 2441355851374540699, guid: 4c7d1d9791d16444eae7d52c8d76be6e, type: 3}
       propertyPath: m_Name
       value: Enemy 1 (16)
